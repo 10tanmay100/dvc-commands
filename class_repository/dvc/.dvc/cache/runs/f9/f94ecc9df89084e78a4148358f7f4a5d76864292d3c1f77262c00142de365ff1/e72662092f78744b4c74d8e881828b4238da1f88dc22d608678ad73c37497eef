@@ -1,0 +1,12 @@
+cmd: python stage_3.py
+deps:
+- path: artifacts01.txt
+  md5: 7e6214bb528dd69609564aa1392a7e53
+  size: 8
+- path: stage_3.py
+  md5: 65465e1dbc146a90cf980cef64667f59
+  size: 181
+outs:
+- path: artifacts02.txt
+  md5: 9493c6499e50baf24242945e44cae6cb
+  size: 19

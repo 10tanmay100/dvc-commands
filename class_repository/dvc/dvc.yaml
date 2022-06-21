@@ -4,9 +4,16 @@ stages:
     deps:
       - stage_1.py
     outs:
-      - artifacts1.txt
+      - artifacts01.txt
   stage_02:
     cmd: python stage_2.py
     deps:
-      - artifacts1.txt
+      - artifacts01.txt
       - stage_2.py
+  stage_03:
+    cmd: python stage_3.py
+    deps:
+      - artifacts01.txt
+      - stage_3.py
+    outs:
+      - artifacts02.txt
